@@ -5,11 +5,11 @@
 - No enviar Pull Request (PR) masivos, usar commits atómicos.
 
 - Usar CamelCase para el nombramiento de variiables, métodos, Clases, Texturas. Modelos y Carpetas.
-	-variables: miVariable.
-	-métodos: miMetodo.
-	-Clases: MiClase.
-	-texturas: miTextura.png
-	-Modelos: MiModelo.
+	- variables: miVariable.
+	- métodos: miMetodo.
+	- Clases: MiClase.
+	- texturas: miTextura.png
+	- Modelos: MiModelo.
 
 - Leer los README de cada carpeta.
 
