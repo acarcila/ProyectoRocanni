@@ -15,9 +15,11 @@
 
 -Colocar los modelos en una carpeta agrupada.
 
+-Cada modelo debe ir en una carpeta y debe tener un nombre coherente.
+
 -Agrupar de manera coherente archivos relacionados entre si cómo por ejemplo archivos relacionados a un mismo modelo.
 
--Evitar tocar las escenas si no necesito realmente tocarlas, en su lugar utilizar escenas de pruebas y colocarlas en la carpeta de escenas de prueba.
+-Evitar modificar las escenas si no necesito realmente tocarlas, en su lugar utilizar escenas de pruebas y colocarlas en la carpeta de escenas de prueba.
 
 -Utilizar ESPAÑOL en los comentarios o en el código.
 
