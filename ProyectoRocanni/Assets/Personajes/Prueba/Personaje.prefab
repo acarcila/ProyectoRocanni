@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMaxima: 15
-  velocidadMaximaReversa: -1
+  velocidadMaximaReversa: -5
