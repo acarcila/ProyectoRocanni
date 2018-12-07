@@ -25,11 +25,26 @@ public class MovimientoCarro : MonoBehaviour
 
         if (Input.GetKey(KeyCode.X))
         {
-            marcha = Marcha.desacelerando;
+            if(velocidad > 0)
+            {
+                marcha = Marcha.frenando;    
+            }
+            else
+            {
+                marcha = Marcha.desacelerando;
+            }
+            
         }
         else if (Input.GetKey(KeyCode.Z))
         {
-            marcha = Marcha.acelerando;
+            if(velocidad < 0)
+            {
+                marcha = Marcha.frenando;    
+            }
+            else
+            {
+                marcha = Marcha.acelerando;
+            }
         }
 		else
 		{
