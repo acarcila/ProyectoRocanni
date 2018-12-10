@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 641163037}
   - component: {fileID: 641163036}
   m_Layer: 5
-  m_Name: botonNiveles
+  m_Name: BotonNiveles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 739483446}
   - component: {fileID: 739483445}
   m_Layer: 5
-  m_Name: textoCreditos
+  m_Name: TextoCreditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 879700831}
   - component: {fileID: 879700830}
   m_Layer: 5
-  m_Name: textoJugar
+  m_Name: TextoJugar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 1255327668}
   - component: {fileID: 1255327667}
   m_Layer: 5
-  m_Name: textoNiveles
+  m_Name: TextoNiveles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 1869838935}
   - component: {fileID: 1869838934}
   m_Layer: 5
-  m_Name: botonCreditos
+  m_Name: BotonCreditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 2086089118}
   - component: {fileID: 2086089117}
   m_Layer: 5
-  m_Name: botonJugar
+  m_Name: BotonJugar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
