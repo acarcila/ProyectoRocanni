@@ -22,6 +22,11 @@ public class Interfaz : MonoBehaviour
 
     }
 
+	public void CambiarNivel ()
+	{
+		
+	}
+
     IEnumerator CargarEscena()
     {
         AsyncOperation cargaAsincrona = SceneManager.LoadSceneAsync("pruebaMovimiento");
