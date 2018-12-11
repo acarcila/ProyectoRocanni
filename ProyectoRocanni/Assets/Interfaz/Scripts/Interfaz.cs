@@ -24,10 +24,10 @@ public class Interfaz : MonoBehaviour
 
     IEnumerator CargarEscena()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("pruebaMovimiento");
-        while (!asyncLoad.isDone)
+        AsyncOperation cargaAsincrona = SceneManager.LoadSceneAsync("pruebaMovimiento");
+        while (!cargaAsincrona.isDone)
         {
-            barraDeCarga.value = asyncLoad.progress;
+            barraDeCarga.value = cargaAsincrona.progress;
             yield return null;
         }
     }
