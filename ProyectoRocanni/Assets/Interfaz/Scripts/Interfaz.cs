@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Interfaz : MonoBehaviour {
 
-	// Use this for initialization
+	
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
 		
+	}
+	//Funcion para salir del juego
+	public void Salir()
+	{
+		Application.Quit();
 	}
 }
