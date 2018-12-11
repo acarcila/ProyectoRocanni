@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Interfaz : MonoBehaviour
 {
     //variables de pantalla de carga
-    public Slider slider;
+    public Slider barraDeCarga;
     public GameObject pantallaDeCarga;
 
 
@@ -27,7 +27,7 @@ public class Interfaz : MonoBehaviour
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("pruebaMovimiento");
         while (!asyncLoad.isDone)
         {
-            slider.value = asyncLoad.progress;
+            barraDeCarga.value = asyncLoad.progress;
             yield return null;
         }
     }
