@@ -21,11 +21,11 @@ public class Interfaz : MonoBehaviour
     {
 
     }
-
-	public void CambiarNivel ()
-	{
-		
-	}
+	//Funcion para cambiar de nivel mediante una corutina
+    public void CambiarNivel()
+    {
+        StartCoroutine(CargarEscena());
+    }
 
     IEnumerator CargarEscena()
     {
