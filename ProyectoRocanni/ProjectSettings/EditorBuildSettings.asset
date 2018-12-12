@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Interfaz/PruebaInterfaz.unity
+    guid: 4a0a675e20ffb4d138a495b97e5046ca
+  - enabled: 1
+    path: Assets/Interfaz/PruebaInterfaz2.unity
+    guid: 5e515b11f7f1043389eb53383270b7d9
   m_configObjects: {}
