@@ -860,6 +860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251200071}
+  - component: {fileID: 1251200072}
   m_Layer: 5
   m_Name: ControladorInterfaz
   m_TagString: Untagged
@@ -885,6 +886,19 @@ RectTransform:
   m_AnchoredPosition: {x: 182.5, y: 102.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1251200072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251200070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228669357f92044c99949f67ecc73549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barraDeCarga: {fileID: 1389428302}
+  pantallaDeCarga: {fileID: 396320963}
 --- !u!1 &1255327665
 GameObject:
   m_ObjectHideFlags: 0
