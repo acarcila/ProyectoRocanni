@@ -21,9 +21,10 @@ public class Interfaz : MonoBehaviour
     {
 
     }
-	//Funcion para cambiar de nivel mediante una corutina
+    //Funcion para cambiar de nivel mediante una corutina
     public void CambiarNivel()
     {
+        pantallaDeCarga.SetActive(true);
         StartCoroutine(CargarEscena());
     }
 
