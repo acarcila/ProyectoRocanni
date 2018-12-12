@@ -22,13 +22,13 @@ public class Interfaz : MonoBehaviour
 
     }
     //Funcion para cambiar de nivel mediante una corutina
-    public void CambiarNivel()
+    public void cambiarNivel()
     {
         pantallaDeCarga.SetActive(true);
-        StartCoroutine(CargarEscena());
+        StartCoroutine(cargarEscena());
     }
 
-    IEnumerator CargarEscena()
+    IEnumerator cargarEscena()
     {
         AsyncOperation cargaAsincrona = SceneManager.LoadSceneAsync("PruebaInterfaz2");
         while (!cargaAsincrona.isDone)
@@ -41,7 +41,7 @@ public class Interfaz : MonoBehaviour
 
 
     //Funcion para salir del juego
-    public void Salir()
+    public void salir()
     {
         Application.Quit();
     }
