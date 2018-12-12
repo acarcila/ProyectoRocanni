@@ -21,7 +21,7 @@ public class Interfaz : MonoBehaviour
     {
 
     }
-    //Funcion para cambiar de nivel mediante una corutina
+    //Metodo para cambiar de nivel mediante una corutina
     public void cambiarNivel()
     {
         pantallaDeCarga.SetActive(true);
@@ -40,7 +40,7 @@ public class Interfaz : MonoBehaviour
 
 
 
-    //Funcion para salir del juego
+    //Metodo para salir del juego
     public void salir()
     {
         Application.Quit();
